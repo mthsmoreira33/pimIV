@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/60382d37ef.js" crossorigin="anonymous"></script>
+    <title>Prime Hotel - Reservas</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>PrimeHotel</span>
+            </div>
+            <div class="site-nav">
+                <span class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <h2>Para um bom conforto escolha com sabedoria<br>e aquele que tem sabedoria escolhe PrimeHotel!</h2>
+            <P>Procurando um local confortável? 
+                dispomos dos melhores serviços e prezamos pela qualidade e satisfação de nossos clientes!</P>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- SIDE NAVBAR -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="#services">serviços</a></li>
+            <li><a href="#rooms">quartos</a></li>
+            <li><a href="#customers">avaliações</a></li>
+        </ul>
+    </div>
+    <!-- END OF SIDE NAVBAR -->
+
+    <!-- FULLSCREN MODAL -->
+    <div id="modal"></div>
+    <!-- END OF FULLSCREN MODAL -->
+
+    <!-- BODY CONTENT-->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>Serviços</h2>
+        </div>
+        <div class="services-container">
+            <!-- SINGLE SERVICE-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Serviço de Gastronomia</h2>
+                    <p>A personalização é a palavra-chave para ilustrar este produto. 
+                        Você, cliente é quem escolhe os produtos, a época em que deve ser servida e a periodicidade do que desejar. 
+                        Aqui, o seu desejo é uma ordem.</p>
+                </div>
+            </article>
+            <!-- END OF SINGLE SERVICE-->
+            <!-- SINGLE SERVICE-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Relaxamento</h2>
+                    <p>Para sua comodidade, o PrimeHotel oference a vocês saunas e spar com diversos tratamentos facias e estéticas,
+                    sala de massagem e piscinas ao ar livre ou com coberturas para aqueles que desejam ficar no ambiente mas agradavel.
+                    </p>
+                </div>
+            </article>
+            <!-- END OF SINGLE SERVICE-->
+            <!-- SINGLE SERVICE-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Organização e limpeza </h2>
+                    <p>Nos do Primehotel contamos com a gorvenança de limpeza de alto padrao, com total excelencia 
+                        para o conforto de todos os nossos clientes, fomos acreditados pelo premio LimpezaImpecavel 
+                        por 3 anos seguidos, garantido total satisfaçao para todos nosso clientes.
+                    </p>
+                </div>
+            </article>
+            <!-- END OF SINGLE SERVICE-->
+            <!-- SINGLE SERVICE-->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Segurança do hotel</h2>
+                    <p>O PrimeHotel conta com os sistemas de seguranças mais sofisticados da atualidade visando em si a 
+                        seguranças de todos nossos clientes.
+                    </p>
+                </div>
+            </article>
+            <!-- END OF SINGLE SERVICE-->
+        </div>
+    </section>
+
+
+
+    <section class="rooms sec-width" id="rooms">
+        <div class="title">
+            <h2>Quartos</h2>
+        </div>
+        <div class="rooms-container">
+            <!-- SINGLE ROOM -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="image/img1.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Suites</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Cama king size ou camas de solteiro 
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Apartamento com vista para a cidade
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Tamanho: a partir de 30 m²
+                        </li>
+                    </ul>
+                    <p>Comece o dia apreciando a exuberante vista da cidade. 
+                       Alguns apartamentos desta categoria possuem sacadas maiores para melhor conforto que tambem 
+                        dá um charme extra no ambiente e decoração.!</p>
+                    <p></p>
+                    <p class="rate">
+                        <span>R$250</span>  diaria
+                    </p>
+                    <button onclick="window.location.href='login/index.html'" type="button" class="btn" id="btn-now" src="login\index.html")>Agende agora </button>
+                </div>
+            </article>
+            <!-- END OF SINGLE ROOM -->
+            <!-- SINGLE ROOM -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="image/img2.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Suites</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Cama king size ou camas de solteiro 
+
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            A suite conta com sala de estar ampla e com banheira
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Tamanho: a partir de 46 m2
+                        </li>
+                    </ul>
+                    <p>Desfrute das vistas da Praia de seu quarto. Cada uma da suite conta com uma sala de estar ampla e separada
+                        com uma espaçosa sala de banho.
+                    </p>
+                    <p>Contamos com dois tipos de suite a suite deluxe e a suite luxo.</p>
+                    <p class="rate">
+                        <span>R$350</span> diaria
+                    </p>
+                    <button onclick="window.location.href='login/index.html'" type="button" class="btn" id="btn-now" src="login\index.html">Agende agora</button>
+                </div>
+            </article>
+            <!-- END OF SINGLE ROOM -->
+            <!-- SINGLE ROOM -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="image/img3.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Suites cobertura</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Piscina privada e terraço
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Serviço de mordomo
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Tamanho: aprox 100 m2
+
+                        </li>
+                    </ul>
+                    <p>Descubra o que há de melhor sofisticado e luxuoso do PrimeHotel. 
+                        Cada suíte possui uma ampla varanda privada e interiores espaçosos com obras de arte. 
+                        Os amplos banheiros de mármore dispõem de banheira e chuveiro separados. 
+                        O piso da cobertura tem a sua própria piscina - a Black Pool, 
+                        além de serviço exclusivo de mordomia.</p>
+                    <p>Suítes penthouse.</p>
+                    <p class="rate">
+                        <span>R$600</span> diaria 
+                    </p>
+                    <button onclick="window.location.href='login/index.html'" type="button" class="btn" id="btn-now">Agende agora</button>
+                </div>
+            </article>
+            <!-- END OF SINGLE ROOM -->
+        </div>
+    </section>
+
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2 id="customer-white">Avaliações </h2>
+            </div>
+            <div class="customers-container">
+                <!-- SINGLE CUSTOMER -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                       
+                    </div>
+                    <h3>Impressionante</h3>
+                    <p>Lugar perfeito, qualidade no atendimento e velocidade,
+                         equipe competente e prestativa, nota 10
+                    </p>
+                    <img src="image/cust1.jpg" alt="customer image">
+                    <span>jasmine wolf, California</span>
+                </div>
+
+                <!-- END OF SINGLE CUSTOMER -->
+                <!-- SINGLE CUSTOMER -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>Eu amei</h3>
+                    <p>Hotel magnifico, suite luxo impecavel, um dos melhores
+                        hoteis que eu ja me hospedei, irei novamente</p>
+                        <img src="image/cust2.jpg" alt="customer image">
+                        <span>Fabiana jhonson, Brasil</span>
+                    </div>
+                <!-- END OF SINGLE CUSTOMER -->
+                <!-- SINGLE CUSTOMER -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>Hotel perfeito</h3>
+                    <p>Hotel impecavel, parabens a todos os colaboradores
+                        eu realmente adorei o local, recomendo
+                    </p>
+                        <img src="image/cust3.jpg" alt="customer image">
+                        <span>Luiza borges, Brasil</span>
+                </div>
+                <!-- END OF SINGLE CUSTOMER -->
+
+            </div>
+        </div>
+    </section>
+    <!-- END OF BODY CONTENT-->
+
+    <!-- FOORER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h2>Sobre HotelPrime</h2>
+                <p>O HotelPrime conta com ampla vista para praia, localizado em 
+                    frente a praia.  </p>
+                <ul class="social-icons">
+                    <li class="flex"><i class="fa fa-twitter fa-2x"></i></li>
+                    <li class="flex"><i class="fa fa-facebook fa-2x"></i></li>
+                    <li class="flex"><i class="fa fa-instagram fa-2x"></i></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Links</h2>
+                <a href="#">Home</a>
+                <a href="#">Acomodaçoes</a>
+                <a href="#">Avaliaçoes</a>
+                <a href="#">Reservas</a>
+            </div>
+
+            <div>
+                <h2>Privacidade</h2>
+                
+                <a href="#">Sobre nos</a>
+                <a href="#">Contato</a>
+                <a href="#">Serviços</a>
+            </div>
+
+            <div>
+                <h2>Localizaçao</h2>
+                <div class="contact-item">
+                    
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    Avenida leopoldo 399 | 
+                    cep 74999999
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +55 062 982828282
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        Hotelplace@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOORER -->
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
